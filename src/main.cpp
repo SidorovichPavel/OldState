@@ -139,7 +139,6 @@ int main()
 					user.set_log_state(LogState::logout);
 				},
 				[&out]() {out << "fail: already logged out" << std::endl; });
-			continue;
 		}
 
 	}
